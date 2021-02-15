@@ -1,0 +1,33 @@
+{
+  "name": "croquis.js",
+  "version": "0.0.3",
+  "description": "drawing tool library",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint:fix": "prettier --write \"src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disjukr/croquis.js.git"
+  },
+  "keywords": [
+    "canvas",
+    "brush",
+    "drawing"
+  ],
+  "author": "JongChan Choi <jong@chan.moe>",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/disjukr/croquis.js/issues"
+  },
+  "homepage": "https://github.com/disjukr/croquis.js#readme",
+  "dependencies": {
+    "polished": "^3.6.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}

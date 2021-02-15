@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "croquis.js",
+  "version": "0.0.0",
+  "description": "drawing tool library",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "ultra -r dev",
+    "build": "ultra -r -b build",
+    "lint:fix": "ultra -r lint:fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disjukr/croquis.js.git"
+  },
+  "author": "JongChan Choi <jong@chan.moe>",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/disjukr/croquis.js/issues"
+  },
+  "homepage": "https://github.com/disjukr/croquis.js#readme",
+  "dependencies": {
+    "ultra-runner": "^3.2.2"
+  }
+}
